@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1045937246328",
+    "project_id": "operation-kengkeong-ultimate",
+    "storage_bucket": "operation-kengkeong-ultimate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045937246328:android:6dd02bfcbce4ff45a49d8d",
+        "android_client_info": {
+          "package_name": "com.example.ok_upp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045937246328-vsm7abkpoe84g9h6r800lsjqioiu8eb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxDi0ZRc1GE2kM6O5cDDkhbZ14W_QYETk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1045937246328-vsm7abkpoe84g9h6r800lsjqioiu8eb9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
