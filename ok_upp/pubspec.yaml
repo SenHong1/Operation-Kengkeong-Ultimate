@@ -35,7 +35,6 @@ dependencies:
   cupertino_icons: ^1.0.2
 
   # Google Sign In Dependencies
-  firebase_core: ^1.13.1
   firebase_auth: ^3.3.9
   google_sign_in: ^5.2.4
 
@@ -44,6 +43,10 @@ dependencies:
 
   # State Management
   provider: ^6.0.2
+  firebase_core: ^1.13.1
+  firebase_auth_web: ^3.3.9
+  firebase_core_web: ^1.6.1
+  google_sign_in_web: ^0.10.0+5
 
 dev_dependencies:
   flutter_test:
