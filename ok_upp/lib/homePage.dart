@@ -18,7 +18,7 @@ class _HomePageState extends State<HomePage> {
     final user = FirebaseAuth.instance.currentUser!;
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Logged In"),
+        title: const Text("OKU Dashboard"),
         centerTitle: true,
         actions: [
           TextButton(
