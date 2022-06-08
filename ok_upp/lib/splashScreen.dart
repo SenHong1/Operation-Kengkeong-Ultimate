@@ -17,7 +17,7 @@ class SplashScreen extends StatelessWidget {
       backgroundColor: const Color.fromARGB(255, 255, 230, 230),
       splashTransition: SplashTransition.rotationTransition,
       pageTransitionType: PageTransitionType.rightToLeft,
-      animationDuration: const Duration(seconds: 1),
+      // animationDuration: const Duration(seconds: 1),
     );
   }
 }
