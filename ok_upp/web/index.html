@@ -19,6 +19,7 @@
     <meta charset="UTF-8" />
     <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
     <meta name="description" content="A new Flutter project." />
+    <meta name="google-signin-client_id" content="1045937246328-vsm7abkpoe84g9h6r800lsjqioiu8eb9.apps.googleusercontent.com">
 
     <!-- iOS meta tags & icons -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -42,8 +43,9 @@
     
     <script type="module">
       // Import the functions you need from the SDKs you need
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-app.js";
-      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-analytics.js";
+      import { initializeApp } from "firebase/app";
+      import { getAnalytics } from "firebase/analytics";
+      import { getAuth } from "firebase/auth";
       // TODO: Add SDKs for Firebase products that you want to use
       // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -55,12 +57,15 @@
         projectId: "operation-kengkeong-ultimate",
         storageBucket: "operation-kengkeong-ultimate.appspot.com",
         messagingSenderId: "1045937246328",
-        appId: "1:1045937246328:web:2da524f65f1052f3a49d8d",
-        measurementId: "G-FLP6NL1KM6",
+        appId: "1:1045937246328:web:23c274119c393cbea49d8d",
+        measurementId: "G-N42SL4LFER"
       };
 
       // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+      // Initialize Firebase Authentication and get a reference to the service
+      const auth = getAuth(app);
     </script>
     <script>
       var serviceWorkerVersion = null;
