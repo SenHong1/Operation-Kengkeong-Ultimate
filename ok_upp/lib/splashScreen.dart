@@ -12,8 +12,8 @@ class SplashScreen extends StatelessWidget {
     return AnimatedSplashScreen(
       splash: Image.asset('assets/OKUbaymax.png'),
       nextScreen: RouterPage(),
-      splashIconSize: 450,
-      duration: 3500,
+      splashIconSize: 300,
+      // duration: 3500,
       backgroundColor: const Color.fromARGB(255, 255, 230, 230),
       splashTransition: SplashTransition.rotationTransition,
       pageTransitionType: PageTransitionType.rightToLeft,
