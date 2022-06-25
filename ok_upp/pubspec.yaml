@@ -104,6 +104,15 @@ flutter:
           weight: 700
         - asset: assets/fonts/Cairo/Cairo-Black.ttf
           weight: 900
+    - family: News705
+      fonts:
+        - asset: assets/fonts/News 705 Italic BT.ttf
+    - family: Blackera
+      fonts:
+        - asset: assets/fonts/BlackEra.otf
+    - family: Dosis
+      fonts:
+        - asset: assets/fonts/Dosis.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

@@ -56,7 +56,7 @@ class _LoginPageState extends State<LoginPage> {
                         style: TextStyle(
                           shadows: <Shadow>[
                             Shadow(
-                              offset: Offset(-1, 7.0),
+                              offset: Offset(-1.0, 7.0),
                               blurRadius: 10,
                               color: Color.fromARGB(255, 175, 148, 148),
                             ),
@@ -72,7 +72,7 @@ class _LoginPageState extends State<LoginPage> {
                         style: TextStyle(
                           shadows: <Shadow>[
                             Shadow(
-                              offset: Offset(-1, 7.0),
+                              offset: Offset(-1.0, 7.0),
                               blurRadius: 10,
                               color: Color.fromARGB(255, 175, 148, 148),
                             ),
