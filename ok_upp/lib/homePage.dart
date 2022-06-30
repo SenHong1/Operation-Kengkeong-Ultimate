@@ -5,6 +5,8 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:ok_upp/LiftDetail/liftA.dart';
 import 'package:ok_upp/LiftDetail/liftB.dart';
 import 'package:ok_upp/Provider/google_sign_in.dart';
+import 'package:ok_upp/adminpage.dart';
+import 'package:ok_upp/emergency_request.dart';
 import 'package:ok_upp/settingpage.dart';
 import 'package:ok_upp/termsNconditions.dart';
 import 'package:provider/provider.dart';
@@ -190,7 +192,7 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
               // ignore: avoid_returning_null_for_void
-              onTap: () => null,
+              onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => const Emergency_Request_Page(),)),
             ),
             ListTile(
               leading: const Icon(Icons.exit_to_app),
